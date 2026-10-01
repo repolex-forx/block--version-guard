@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/version-guard/commit/6444604ef8536901b3bf2831fe55d27b2e7c2c4b",
       "git:hexsha": "6444604ef8536901b3bf2831fe55d27b2e7c2c4b",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
