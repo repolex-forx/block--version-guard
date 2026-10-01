@@ -1,0 +1,15 @@
+[2026-10-01T08:48:26Z] === ENRICH ITERATION 1 START | repo=block/version-guard sha=6444604e ===
+[2026-10-01T08:48:26Z] [iter=1] PHASE START: enrich repo=block/version-guard sha=6444604e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6444604e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6444604ef8536901b3bf2831fe55d27b2e7c2c4b.nq.gz
+[2026-10-01T08:49:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=90 MB
+[2026-10-01T08:49:38Z] [iter=1] AST store loaded triples=737020 load_secs=5 mem_mb=817 MB
+[2026-10-01T08:49:38Z] [iter=1] Step 2: Finding LSP targets mem_mb=817 MB
+[2026-10-01T08:49:38Z] [iter=1] LSP targets found call_sites=5055 imports=0 extends=0 implements=0 secs=1
+[2026-10-01T08:49:38Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=817 MB
+[2026-10-01T08:49:42Z] [iter=1] Position index built positions=49666 nodes_with_types=58225 secs=4 mem_mb=817 MB
+[2026-10-01T08:49:42Z] [iter=1] Step 3: Starting LSP resolution mem_mb=817 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:49:42Z] [iter=1] Resolving target type target_type=call_site count=5055
+[2026-10-01T08:49:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=0 resolved=0 errors=5055 current=scripts/setup-hooks.sh
+[2026-10-01T08:49:47Z] [iter=1] Target type resolved target_type=call_site resolved=0 errors=5055 secs=5 mem_mb=817 MB
+[2026-10-01T08:49:48Z] [iter=1] Step 5: Writing final enrichment file triples=152
+[2026-10-01T08:49:48Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6444604ef8536901b3bf2831fe55d27b2e7c2c4b.nq.gz size_kb=2
+[2026-10-01T08:49:48Z] [iter=1] PHASE END: enrich elapsed_s=82 elapsed_min=1.4 total_triples=152
